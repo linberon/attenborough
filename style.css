@@ -5,19 +5,27 @@
 	padding: 3rem;
 	text-align: center; 
 }
+.illubox {
+	position: relative;
+	height: 100vh;
+}
 section {
 	overflow: hidden;
 }
-#portrait {
-	position: relative;
-	background-color: #232f2a;
-	height: 100vh;
-}
-.portrait-bg1, .portrait-bg2 {
+.centered-bg {
 	left: 50%;
 	margin-left: -576px;
 }
+#portrait {
+	background-color: #232f2a;
+}
 .portrait-david {
 	left: 20%;
+	bottom: -50px;
+}
+#zooquest {
+	background-color: #d6c5b1;
+}
+.zoo-quest-david {
 	bottom: -50px;
 }
