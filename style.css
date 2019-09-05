@@ -1,0 +1,23 @@
+.absolute {
+	position: absolute;
+}
+.textbox {
+	padding: 3rem;
+	text-align: center; 
+}
+section {
+	overflow: hidden;
+}
+#portrait {
+	position: relative;
+	background-color: #232f2a;
+	height: 100vh;
+}
+.portrait-bg1, .portrait-bg2 {
+	left: 50%;
+	margin-left: -576px;
+}
+.portrait-david {
+	left: 20%;
+	bottom: -50px;
+}
