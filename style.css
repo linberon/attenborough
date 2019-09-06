@@ -44,11 +44,17 @@ section {
 #gorillas {
 	background-color: #2e3c17;
 }
-#whale, #scenery {
+#whale {
 	background-color: #c1e1ff;
 }
 #manta {
 	background-color: #013f68;
+}
+#species {
+	background-color: #ceb382;
+}
+#scenery {
+	background-color: #c6d3e0;
 }
 
 @media screen and (min-width: 400px){
