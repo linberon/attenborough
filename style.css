@@ -1,6 +1,9 @@
+/*optimize for smallest 1080px*/
+
 html,
 body {
 	box-sizing: border-box;
+	max-width: 1400px;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -18,7 +21,6 @@ body {
 }
 .illubox {
 	position: relative;
-	height: 50vh;
 }
 section {
 	overflow: hidden;
@@ -31,15 +33,8 @@ section {
 #portrait {
 	background-color: #1e2d29;
 }
-.portrait-david {
-	left: 20%;
-	bottom: -50px;
-}
 #zooquest {
 	background-color: #c3b590;
-}
-.zoo-quest-david {
-	bottom: -50px;
 }
 #gorillas {
 	background-color: #2e3c17;
@@ -57,8 +52,8 @@ section {
 	background-color: #c6d3e0;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 760px){
 	.illubox {
-		height: 110vh;
+		height: 700px;
 	}
 }
