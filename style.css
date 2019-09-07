@@ -6,6 +6,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: 'Red Hat Display', sans-serif;
 }
 .maxwidth {
 	max-width: 1440px;
@@ -18,10 +19,41 @@ body {
 .absolute {
 	position: absolute;
 }
-.textbox {
-	padding: 3rem;
+.center-text {
 	text-align: center;
-	height: 40vh;
+}
+.black {
+	font-weight: 900;
+}
+.mb0 {
+	margin-bottom: 0;
+}
+.cover {
+	background-image: linear-gradient(-20deg, #000000, #1e2d29);
+	background-color: #1e2d29;
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;	
+}
+.cover-text {
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.text-container {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 3rem;
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.textbox {
+	max-width: 500px;
 }
 .illubox {
 	position: relative;
