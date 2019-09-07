@@ -3,10 +3,14 @@
 html,
 body {
 	box-sizing: border-box;
-	max-width: 1400px;
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+.maxwidth {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .nopadding {
 	padding: 0 !important;
@@ -30,30 +34,46 @@ section {
 	right: 0;
 	margin: auto;
 }
-#portrait {
+.portrait {
 	background-color: #1e2d29;
 }
-#zooquest {
+.zooquest {
 	background-color: #c3b590;
 }
-#gorillas {
+.gorillas {
 	background-color: #2e3c17;
 }
-#whale {
+.whale {
 	background-color: #c1e1ff;
 }
-#manta {
+.manta {
 	background-color: #013f68;
 }
-#species {
+.species {
 	background-color: #ceb382;
 }
-#scenery {
+.scenery {
 	background-color: #c6d3e0;
 }
 
 @media screen and (min-width: 760px){
 	.illubox {
 		height: 700px;
+	}
+}
+@media(max-width: 1080px) {
+	.sm-md-hide {
+		display: none;
+	}
+	.lg-show {
+		display: block;
+	}
+}
+@media(min-width: 1080px) {
+	.lg-hide {
+		display: none;
+	}
+	.sm-md-show {
+		display: block;
 	}
 }
