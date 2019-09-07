@@ -103,15 +103,9 @@ section {
 	.sm-md-hide {
 		display: none;
 	}
-	.lg-show {
-		display: block;
-	}
 }
 @media(min-width: 1080px) {
 	.lg-hide {
 		display: none;
-	}
-	.sm-md-show {
-		display: block;
 	}
 }
