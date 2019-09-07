@@ -1,7 +1,6 @@
-/*optimize for smallest 1080px*/
-
 html,
 body {
+	background-color: #000000;
 	box-sizing: border-box;
 	height: 100%;
 	margin: 0;
@@ -22,35 +21,38 @@ body {
 .center-text {
 	text-align: center;
 }
+.flex-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .black {
 	font-weight: 900;
 }
 .mb0 {
 	margin-bottom: 0;
 }
+.rem2 {
+	font-size: 2rem;
+}
+.rem3 {
+	font-size: 3rem;
+}
 .cover {
 	background-image: linear-gradient(-20deg, #000000, #1e2d29);
 	background-color: #1e2d29;
-	padding: 3rem;
-	display: flex;
-	justify-content: center;
-	align-content: center;
 	height: 100vh;	
 }
 .cover-text {
 	color: #ffffff;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 .text-container {
 	background-color: #000000;
 	color: #ffffff;
 	padding: 3rem;
-	height: 75vh;
-	display: flex;
-	justify-content: center;
-	align-content: center;
+	height: 90vh;
 }
 .textbox {
 	max-width: 500px;
@@ -86,6 +88,10 @@ section {
 }
 .scenery {
 	background-color: #c6d3e0;
+}
+.copyright {
+	padding: 25px 0;
+	color: #808080;
 }
 
 @media screen and (min-width: 760px){
